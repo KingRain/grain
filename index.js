@@ -22,5 +22,5 @@ document.addEventListener('mousemove', function(e) {
     const spotlight = document.getElementById('spotlight');
     const x = e.clientX;
     const y = e.clientY;
-    spotlight.style.background = `radial-gradient(circle at ${x}px ${y}px, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0) 50%)`;
+    spotlight.style.background = `radial-gradient(circle at ${x}px ${y}px, rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0) 20%)`;
 });
